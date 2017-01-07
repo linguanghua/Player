@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin">
+        <TextView
+            android:id="@+id/videoFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/mediacontroller_video"
+            android:text="视频文件"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/videoFileTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:text="视频时长"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
